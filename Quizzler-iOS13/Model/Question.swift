@@ -9,6 +9,12 @@
 import Foundation
 
 struct Question{
-    let q:String
-    let a:String
+    let text:String
+    let answer:String
+    
+    init(q: String, a: String){
+        text = q
+        answer = a
+    }
 }
+
